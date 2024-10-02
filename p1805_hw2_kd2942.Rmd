@@ -1,0 +1,21 @@
+---
+title: "p1805_hw2_kd2942"
+output: github_document
+date: "2024-10-02"
+---
+#setting up R markdown
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#pushing to git
+```{r git}
+usethis::create_github_token()
+gitcreds::gitcreds_set()
+```
+
+#problem #1
+```{r}
+
+```
+
